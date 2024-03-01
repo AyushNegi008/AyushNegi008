@@ -1,5 +1,5 @@
 # 👋 Hi I'm Ayush Negi
-a full-stack LAMP (Linux, Apache, MySQL, PHP) web developer with experience in creating websites using HTML, CSS, JavaScript, jQuery, and PHP. In database management, I have knowledge of MySQL. Moreover, I am proficient in Python and its frameworks, as well as C and C++. Additionally, I excel in creating responsive UI/UX for both applications and websites.
+A full-stack LAMP (Linux, Apache, MySQL, PHP) web developer with experience in creating websites using HTML, CSS, JavaScript, jQuery, and PHP. In database management, I have knowledge of MySQL. Moreover, I am proficient in Python and its frameworks, as well as C and C++. Additionally, I excel in creating responsive UI/UX for both applications and websites.
 
 Certainly! As a full-stack LAMP web developer, I bring a diverse skill set to the table. Let me elaborate further on my experience and expertise:
 
