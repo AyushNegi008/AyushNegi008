@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ayush Negi</h1>
-<h3 align="center">A full-stack LAMP (Linux, Apache, MySQL, PHP) web developer with experience in creating websites using HTML, CSS, JavaScript, jQuery, and PHP.</h3>
+<h3 align="center">A full-stack LAMP (Linux, Apache, MySQL, PHP) web developer with experience in creating websites using HTML, CSS, JavaScript, jQuery, and PHP. In database management, I have knowledge of MySQL. Moreover, I am proficient in Python and its frameworks, as well as C and C++. Additionally, I excel in creating responsive UI/UX for both applications and websites.</h3>
 
 
 
