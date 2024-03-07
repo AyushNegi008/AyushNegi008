@@ -1,8 +1,8 @@
 <!--![213866269-5d00981c-7c98-46d7-8a8e-16f462f15227](https://github.com/AyushNegi008/AyushNegi008/assets/86602274/1e0b4efa-8cf1-4af5-a408-6968dfdac116)-->
 
-<p height="10px">
+<div height="10px">
   <img width="100%" src="https://github.com/AyushNegi008/AyushNegi008/assets/86602274/1e0b4efa-8cf1-4af5-a408-6968dfdac116" alt="Your GIF Alt Text">
-</p>
+</div>
 
 # 👋 Hi I'm Ayush Negi
 A full-stack LAMP (Linux, Apache, MySQL, PHP) web developer with experience in creating websites using HTML, CSS, JavaScript, jQuery, and PHP. In database management, I have knowledge of MySQL. Moreover, I am proficient in Python and its frameworks, as well as C and C++. Additionally, I excel in creating responsive UI/UX for both applications and websites.
