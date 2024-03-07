@@ -1,5 +1,7 @@
 <img height="80px" display="flex" justify-content="center" align-items="center" src="![213866269-5d00981c-7c98-46d7-8a8e-16f462f15227](https://github.com/AyushNegi008/AyushNegi008/assets/86602274/1e0b4efa-8cf1-4af5-a408-6968dfdac116)">
-
+<p align="center">
+  <img height="80px" src="https://github.com/AyushNegi008/AyushNegi008/raw/main/assets/86602274/1e0b4efa-8cf1-4af5-a408-6968dfdac116.png" alt="Your Image Alt Text">
+</p>
 
 # 👋 Hi I'm Ayush Negi
 A full-stack LAMP (Linux, Apache, MySQL, PHP) web developer with experience in creating websites using HTML, CSS, JavaScript, jQuery, and PHP. In database management, I have knowledge of MySQL. Moreover, I am proficient in Python and its frameworks, as well as C and C++. Additionally, I excel in creating responsive UI/UX for both applications and websites.
