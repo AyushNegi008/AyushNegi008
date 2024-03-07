@@ -1,5 +1,5 @@
 <!--![213866269-5d00981c-7c98-46d7-8a8e-16f462f15227](https://github.com/AyushNegi008/AyushNegi008/assets/86602274/1e0b4efa-8cf1-4af5-a408-6968dfdac116)-->
-<p style="width: 100%; height: 0%;>
+<p style="width: 100%; height: 1%;>
   <img width="100%" src="https://github.com/AyushNegi008/AyushNegi008/assets/86602274/1e0b4efa-8cf1-4af5-a408-6968dfdac116" alt="Your GIF Alt Text">
 </p>
 
