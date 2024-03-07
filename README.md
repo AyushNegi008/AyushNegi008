@@ -2,9 +2,7 @@
 
 <div style="height:10px !important;">
   <img width="100%" src="https://github.com/AyushNegi008/AyushNegi008/assets/86602274/1e0b4efa-8cf1-4af5-a408-6968dfdac116" alt="Your GIF Alt Text">
-</div>
-
-# 👋 Hi I'm Ayush Negi
+  # 👋 Hi I'm Ayush Negi
 A full-stack LAMP (Linux, Apache, MySQL, PHP) web developer with experience in creating websites using HTML, CSS, JavaScript, jQuery, and PHP. In database management, I have knowledge of MySQL. Moreover, I am proficient in Python and its frameworks, as well as C and C++. Additionally, I excel in creating responsive UI/UX for both applications and websites.
 
 As a full-stack LAMP web developer, I bring a versatile skill set to the table. My expertise lies in crafting visually appealing and user-friendly interfaces using HTML, CSS, and JavaScript. Proficient in jQuery, I enhance the user experience with dynamic and interactive elements on the client side.
@@ -14,6 +12,10 @@ On the back end, I command the LAMP stack—Linux, Apache, MySQL, and PHP—to d
 With a strong foundation in MySQL, I design efficient and secure database structures, optimizing data storage and retrieval. Beyond web development, I extend my capabilities to Python and its frameworks for tasks like data analysis and automation. Proficiency in C and C++ enables me to contribute to diverse programming challenges.
 
 I take pride in creating responsive UI/UX designs, prioritizing a seamless user experience across devices. Committed to continuous learning, I stay abreast of the latest trends, ensuring adaptability and relevance in the ever-evolving tech landscape.
+</img>
+</div>
+
+
 
 
 
