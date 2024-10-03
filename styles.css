@@ -1,0 +1,532 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9; /* Off-white background */
+    color: #2d2d2d; /* Dark grey for text */
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+h1, h2 {
+    color: #2d2d2d; /* Dark grey headings */
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff; /* White background */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    transition: max-height 0.3s ease;
+    align-content: center;
+    align-items: center;
+}
+.nav-links li {
+    margin-left: 20px;
+}
+.nav-links a {
+    color: #6d6d6d; /* Soft grey links */
+    padding: 10px;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #8338ec; /* Electric violet hover */
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2d2d2d; /* Dark grey logo */
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #8338ec, #3a86ff); /* Gradient background */
+    position: relative;
+}
+.hero-content {
+    text-align: center;
+    z-index: 1;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffffff; /* White text */
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #f4f4f9; /* Lighter text */
+}
+.hero .btn-primary {
+    background: linear-gradient(to right, #3a86ff, #00bfa5); /* Bright gradient for buttons */
+    padding: 12px 30px;
+    border: none;
+    color: #ffffff; /* White text */
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.hero .btn-primary:hover {
+    transform: scale(1.1);
+}
+
+.hero img {
+    width: 65%;
+}
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #ffffff; /* White background */
+    color: #2d2d2d; /* Dark grey text */
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 90%;
+}
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.about .btn-secondary {
+    padding: 10px 20px;
+    background-color: #8338ec; /* Electric violet */
+    border: none;
+    color: #ffffff; /* White text */
+    cursor: pointer;
+}
+.about .btn-secondary:hover {
+    background-color: #3a86ff; /* Bright blue on hover */
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 100px 20px;
+    background-color: #f4f4f9; /* Light grey background */
+    text-align: center;
+}
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #2d2d2d; /* Dark grey text */
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+.project-card {
+    background-color: #ffffff; /* White card background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #2d2d2d;
+}
+.project-card p {
+    margin-bottom: 20px;
+    color: #6d6d6d; /* Soft grey text */
+}
+.btn-tertiary {
+    background: linear-gradient(to right, #8338ec, #3a86ff); /* Gradient button */
+    padding: 10px 20px;
+    color: #ffffff; /* White text */
+    border: none;
+    cursor: pointer;
+}
+.btn-tertiary:hover {
+    transform: scale(1.05);
+}
+
+/* Skills Section */
+.skills {
+    padding: 100px 20px;
+    background-color: #ffffff; /* White background */
+}
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #2d2d2d; /* Dark grey */
+}
+.skills-icons {
+    display: flex;
+    justify-content: center;
+}
+
+/* Contact Section */
+.contact {
+    padding: 100px 20px;
+    background-color: #f4f4f9; /* Light grey */
+    text-align: center;
+}
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2d2d2d; /* Dark grey */
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White input fields */
+    border: 2px solid #3a86ff; /* Blue border */
+    color: #2d2d2d; /* Dark text */
+}
+.contact button {
+    padding: 15px 30px;
+    background: linear-gradient(to right, #3a86ff, #00bfa5); /* Button gradient */
+    color: #ffffff; /* White text */
+    border: none;
+    cursor: pointer;
+}
+.contact button:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    text-align: center;
+    color: #6d6d6d; /* Soft grey text */
+    font-size: 0.9rem;
+}
+
+/* Button Styles */
+.btn-primary,
+.btn-secondary,
+.btn-tertiary,
+.theme-toggle {
+    display: inline-block; /* Ensure buttons are inline-block for spacing */
+    padding: 15px 30px; /* Increased padding for larger buttons */
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center; /* Centered text */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Primary Button */
+.btn-primary {
+    background: linear-gradient(to right, #3a86ff, #00bfa5); /* Bright gradient */
+    color: #ffffff; /* White text */
+}
+
+/* Primary Button Hover */
+.btn-primary:hover {
+    transform: scale(1.05); /* Slight scaling effect */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background-color: #8338ec; /* Electric violet */
+    color: #ffffff; /* White text */
+}
+
+/* Secondary Button Hover */
+.btn-secondary:hover {
+    background-color: #3a86ff; /* Bright blue on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+/* Tertiary Button */
+.btn-tertiary {
+    background: linear-gradient(to right, #8338ec, #3a86ff); /* Gradient for tertiary */
+    color: #ffffff; /* White text */
+}
+
+/* Tertiary Button Hover */
+.btn-tertiary:hover {
+    transform: scale(1.05); /* Slight scaling effect */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    background-color: #f4f4f9; /* Light background for toggle */
+    color: #2d2d2d; /* Dark text */
+    border-radius: 25px; /* Rounded corners */
+    border: 2px solid #2d2d2d; /* Border for toggle */
+}
+
+/* Theme Toggle Button Hover */
+.theme-toggle:hover {
+    background-color: #2d2d2d; /* Dark background on hover */
+    color: #f4f4f9; /* Light text on hover */
+}
+
+/* Centering Buttons */
+.center-button {
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    margin-top: 20px; /* Spacing above buttons */
+    margin-bottom: 20px; /* Spacing below buttons */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff; /* White background */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+/* Hide nav-links on mobile */
+.nav-links {
+    list-style: none;
+    display: flex;
+    transition: max-height 0.3s ease;
+}
+
+/* Responsive Navbar */
+.nav-toggle {
+    display: none; /* Hide by default */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    margin: 3px 0;
+    background-color: #2d2d2d; /* Dark grey for bars */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide links initially */
+        flex-direction: column; /* Stack links vertically */
+        background: #ffffff; /* White background */
+        position: absolute;
+        top: 70px; /* Below navbar */
+        right: 0;
+        width: 100%; /* Full width */
+        max-height: 0; /* Initially collapsed */
+        overflow: hidden; /* Hide overflow */
+        transition: max-height 0.3s ease; /* Smooth transition */
+    }
+
+    .nav-links.active {
+        display: flex; /* Show links when active */
+        max-height: 500px; /* Set a max height for the dropdown */
+    }
+
+    .nav-toggle {
+        display: flex; /* Show hamburger icon */
+    }
+    .hero {
+        flex-direction: column;
+        
+    }
+    .hero h1{
+        font-size: 2.8rem;
+    
+    }
+    .hero img{
+        width:80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9; /* Default: Off-white background */
+    color: #2d2d2d; /* Default: Dark grey for text */
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+.dark-theme {
+    background-color: #1a1a2e; /* Dark background */
+    color: #f4f4f9; /* Light text */
+}
+
+.dark-theme .navbar {
+    background: #2d2d2d; /* Dark navbar */
+}
+.dark-theme .logo {
+    color: #f4f4f9; /* Light text for links */
+}
+.dark-theme .nav-links a {
+    color: #f4f4f9; /* Light text for links */
+}
+.dark-theme .nav-links {
+    background: #2d2d2d; /* Dark navbar */
+}
+.dark-theme span.bar{
+    background-color: #f4f4f9;
+}
+.dark-theme .hero {
+    background: linear-gradient(to right, #8338ec, #3a86ff); /* Gradient background */
+}
+.dark-theme .contact h2 {
+    color: #f4f4f9;
+}
+
+.dark-theme .hero h1,
+.dark-theme .hero p,
+.dark-theme .hero .btn-primary {
+    color: #f4f4f9; /* Light text for hero section */
+}
+
+.dark-theme .about,
+.dark-theme .projects,
+.dark-theme .contact {
+    background-color: #2d2d2d; /* Dark background */
+    color: #f4f4f9; /* Light text */
+}
+
+/* Update other sections accordingly */
+
+
+
+
+
