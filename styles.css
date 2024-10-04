@@ -209,13 +209,14 @@ a {
 }
 .skills h2 {
     font-size: 2.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     text-align: center;
     color: #2d2d2d; /* Dark grey */
 }
 .skills-icons {
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 /* Contact Section */
@@ -533,3 +534,107 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-container {
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-container::before,
+.carousel-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    z-index: 2;
+}
+
+.carousel-container::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.carousel-container::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+
+.carousel {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding-top: 13px;
+}
+
+.carousel-slide {
+    min-width: 150px;
+    margin-right: 70px;
+    
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.carousel-track:hover {
+    animation-play-state: paused;
+}
+
+.carousel-slide img:hover {
+   
+    border:2px solid;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+/* Allow horizontal scrolling */
+.carousel {
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+.carousel::-webkit-scrollbar {
+    width: 0;
+}
