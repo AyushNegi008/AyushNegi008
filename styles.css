@@ -8,7 +8,7 @@
 
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400..700&display=swap');
 
 
 
@@ -555,89 +555,6 @@ footer {
 
 
 
-/* Media Query for Mobile Devices */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none; /* Hide links initially */
-        flex-direction: column; /* Stack links vertically */
-        background: #ffffff; /* White background */
-        position: absolute;
-        top: 70px; /* Below navbar */
-        right: 0;
-        width: 100%; /* Full width */
-        max-height: 0; /* Initially collapsed */
-        overflow: hidden; /* Hide overflow */
-        transition: max-height 0.3s ease; /* Smooth transition */
-    }
-
-    .nav-links.active {
-        display: flex; /* Show links when active */
-        max-height: 500px; /* Set a max height for the dropdown */
-    }
-
-    .nav-toggle {
-        display: flex; /* Show hamburger icon */
-    }
-    .hero {
-        flex-direction: column;
-        
-    }
-    .hero h1{
-        font-size: 2.8rem;
-    
-    }
-    .hero img{
-        width:80%;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .carousel-container::before,
-    .carousel-container::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 60px;
-        z-index: 2;
-    }
-
-
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -712,6 +629,169 @@ body {
 }
 
 /* Update other sections accordingly */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide links initially */
+        flex-direction: column; /* Stack links vertically */
+        background: #ffffff; /* White background */
+        position: absolute;
+        top: 70px; /* Below navbar */
+        right: 0;
+        width: 100%; /* Full width */
+        max-height: 0; /* Initially collapsed */
+        overflow: hidden; /* Hide overflow */
+        transition: max-height 0.3s ease; /* Smooth transition */
+    }
+
+    .nav-links.active {
+        display: flex; /* Show links when active */
+        max-height: 500px; /* Set a max height for the dropdown */
+    }
+
+    .nav-toggle {
+        display: flex; /* Show hamburger icon */
+    }
+    .hero {
+        flex-direction: column;
+        
+    }
+    .hero h1{
+        font-size: 2.8rem;
+    
+    }
+    .hero img{
+        width:80%;
+    }
+
+    .nav-links{
+        height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    }
+
+
+    .nav-links li{
+        margin-left: 0;
+        font-size: 44px;
+        text-transform: uppercase;
+        font-family: FoundersGrotesk, sans-serif;
+        font-weight: 900;
+        width: 95%;
+        line-height: 4px;
+    }
+
+    .theme-toggle {
+        background-color: #f4f4f9;
+        color: #2d2d2d;
+        border-radius: 25px;
+        font-size: 22px;
+        border: 2px solid #2d2d2d;
+        width: 93%;
+    }
+
+    .dark-theme .nav-links {
+        background: #2d2d2deb;
+    }
+
+
+
+
+
+
+
+
+    .carousel-container::before,
+    .carousel-container::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 60px;
+        z-index: 2;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
