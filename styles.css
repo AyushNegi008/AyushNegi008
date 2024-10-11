@@ -30,7 +30,10 @@
 
 
 
-
+.text-shadow{
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
 
 
 body {
@@ -556,6 +559,50 @@ footer {
 
 
 
+#globe-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* canvas {
+    border-radius: 50%;
+} */
+
+#globe-container ul {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#globe-container li {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items horizontally */
+    text-align: center; /* Center the text */
+}
+
+#globe-container img {
+    margin-right: 5px; /* Space between the icon and the text */
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -644,6 +691,31 @@ body {
     background: #050506;
 }
 /* Update other sections accordingly */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
