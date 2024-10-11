@@ -477,7 +477,7 @@ footer {
 
 .carousel {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .carousel-track {
